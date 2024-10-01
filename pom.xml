@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.locker.gea</groupId>
-	<artifactId>UI-locker</artifactId>
+	<artifactId>ui-locker</artifactId>
 	<version>0.1</version>
-	<name>UI-locker</name>
+	<name>ui-locker</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
