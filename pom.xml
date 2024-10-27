@@ -32,11 +32,11 @@
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
-		<!-- <dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.22</version>
-		</dependency> -->
+		</dependency>
 
 		<dependency>
 			<groupId>org.json</groupId>
