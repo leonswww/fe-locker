@@ -28,8 +28,7 @@ public class HomeController {
 
     @GetMapping("/home")
     public String home(HttpServletRequest request, Model model) {
-        LinkedHashMap<String, Object> userData = (LinkedHashMap<String, Object>) request.getSession()
-                .getAttribute("user");
+        LinkedHashMap<String, Object> userData = (LinkedHashMap<String, Object>) request.getSession().getAttribute("user");
 
         User user = new User();
         user.setEmail((String) userData.get("email"));
